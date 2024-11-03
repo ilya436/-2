@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe9e9;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 2000ppx;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    .rounded-image {
+        border-radius: 15px; /* Здесь задается радиус скругления */
+        width: 100px; /* Устанавливаем ширину изображения */
+        height: auto; /* Поддерживаем пропорции изображения */
+    }
+}
+    .grid-section {
+        margin-bottom: 20px;
+        background: #ffffff;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        .rounded-image {
+            border-radius: 15px; /* Здесь задается радиус скругления */
+            width: 100px; /* Устанавливаем ширину изображения */
+            height: auto; /* Поддерживаем пропорции изображения */
+            header {
+                text-align: center;
+            }
+        }
+    
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+h3 {
+    margin: 10px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+        .rounded-image {
+            border-radius: 5%; /* Скругление до круглой формы */
+            width: 100px;      /* Ширина изображения */
+            height: 100px;     /* Высота изображения */
+            object-fit: cover; /* Обрезка изображения с сохранением пропорций */
+        }
+    img {
+        max-width: 100%; 
+        height: auto; 
+    }
+    .rounded-imagei {
+        border-radius: 5%; /* Скругление до круглой формы */
+        width: 70px;      /* Ширина изображения */
+        height: 70px;     /* Высота изображения */
+        object-fit: cover; /* Обрезка изображения с сохранением пропорций */
+    }
+    .centered-text {
+        text-align: center; /* Выравнивание текста по центру */
+        margin-top: 10px; /* Отступ сверху */
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    .section {
+        width: 30%; 
+    }
+    
+    .grid-section {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        grid-template-rows: repeat(2, 1fr); 
+        gap: 10px; 
+    }
+    
+    .grid-section img {
+        width: 100%; 
+        height: auto; 
+    }
+    .text-center {
+        text-align: center; /* Центруем текст */
+        margin-bottom: 20px; /* Отступ под текстом */
+        display: inline; 
+    }
+    .textii {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+                padding: 10px;
+                box-sizing: border-box;
+            }
+            .text {
+                flex: 1; /* Позволяет текстам занимать равное пространство */
+                text-align: center; /* Центрируем текст по горизонтали */
+            }
+            .left {
+                text-align: left;
+            }
+            .right {
+                text-align: right;
+            }
+            .image {
+                float: right;
+            }
+            .texti {
+                float: left;
+                margin-right: 50px; /* Расстояние между текстом и картинкой */
+            }
+
+

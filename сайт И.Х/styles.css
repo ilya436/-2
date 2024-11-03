@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+}
+
+header {
+    background: #ffe9e9;
+    color: white;
+    padding: 20px;
+ text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.gallery a {
+    margin: 10px;
+}
+
+.gallery img {
+    width: 150px; 
+    height: auto; 
+    border-radius: 8px;
+    transition: transform 0.2s; 
+}
+
+.gallery img:hover {
+    transform: scale(1.1); 
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    @font-face {
+        font-family: 'DespairDisplay-Bold';
+        src: url('C:\Users\79162\Desktop\сайт И.Х\DespairDisplay-Bold.otf'); 
+    }
+    line-height: 1.6;
+    background-color: #ffe9e9 
+}
+
+/* Заголовки */
+h1, h2, h3, h4, h5, h6 { 
+    color: #000000;
+    margin-bottom: 15px;
+    font-size: 45px;       
+}   
+
+
+a {
+    text-decoration: none;
+    color: #1a73e8; 
+    transition: color 0.3s ease; 
+}
+
+a:hover {
+    color: #0c5cd4; 
+}
+
+
+.container {
+    width: 90%;
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    background: white; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
+}
+
+/* Кнопки */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1a73e8; 
+    color: white; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.button:hover {
+    background-color: #0c5cd4; 
+}
+
+
+.card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 10px 0;
+}
+
+
+img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px; 
+}
+
+.col {
+    flex: 1; 
+    padding: 10px;
+    min-width: 300px; 
+}
+
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column; 
+    }
+}
