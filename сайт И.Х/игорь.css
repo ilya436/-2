@@ -28,9 +28,9 @@ section {
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     .rounded-image {
-        border-radius: 15px; /* Здесь задается радиус скругления */
-        width: 100px; /* Устанавливаем ширину изображения */
-        height: auto; /* Поддерживаем пропорции изображения */
+        border-radius: 15px; 
+        width: 100px; 
+        height: auto; 
     }
 }
     .grid-section {
@@ -40,9 +40,9 @@ section {
         border-radius: 8px;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         .rounded-image {
-            border-radius: 15px; /* Здесь задается радиус скругления */
-            width: 100px; /* Устанавливаем ширину изображения */
-            height: auto; /* Поддерживаем пропорции изображения */
+            border-radius: 15px; 
+            width: 100px; 
+            height: auto; 
             header {
                 text-align: center;
             }
@@ -76,24 +76,24 @@ footer {
     width: 100%;
 }
         .rounded-image {
-            border-radius: 5%; /* Скругление до круглой формы */
-            width: 100px;      /* Ширина изображения */
-            height: 100px;     /* Высота изображения */
-            object-fit: cover; /* Обрезка изображения с сохранением пропорций */
+            border-radius: 5%;
+            width: 100px;      
+            height: 100px;     
+            object-fit: cover; 
         }
     img {
         max-width: 100%; 
         height: auto; 
     }
     .rounded-imagei {
-        border-radius: 5%; /* Скругление до круглой формы */
-        width: 70px;      /* Ширина изображения */
-        height: 70px;     /* Высота изображения */
-        object-fit: cover; /* Обрезка изображения с сохранением пропорций */
+        border-radius: 5%; 
+        width: 70px;      
+        height: 70px;     
+        object-fit: cover; 
     }
     .centered-text {
-        text-align: center; /* Выравнивание текста по центру */
-        margin-top: 10px; /* Отступ сверху */
+        text-align: center; 
+        margin-top: 10px; 
       }
       body {
         margin: 0;
@@ -116,7 +116,9 @@ footer {
         display: grid;
         grid-template-columns: repeat(3, 1fr); 
         grid-template-rows: repeat(2, 1fr); 
-        gap: 10px; 
+        gap: 10px;
+        justify-content: space-between; 
+        margin-bottom: 20px;
     }
     
     .grid-section img {
@@ -124,8 +126,8 @@ footer {
         height: auto; 
     }
     .text-center {
-        text-align: center; /* Центруем текст */
-        margin-bottom: 20px; /* Отступ под текстом */
+        text-align: center; 
+        margin-bottom: 20px; 
         display: inline; 
     }
     .textii {
@@ -137,8 +139,8 @@ footer {
                 box-sizing: border-box;
             }
             .text {
-                flex: 1; /* Позволяет текстам занимать равное пространство */
-                text-align: center; /* Центрируем текст по горизонтали */
+                flex: 1; 
+                text-align: center; 
             }
             .left {
                 text-align: left;
@@ -151,7 +153,37 @@ footer {
             }
             .texti {
                 float: left;
-                margin-right: 50px; /* Расстояние между текстом и картинкой */
+                margin-right: 50px;
             }
+            .sectiona {
+                font-size: 15px;
+                height: 75px;
+                width: 315px;
+                display: grid;
+                gap: 10px;
+                justify-content: space-between; 
+                background-color: #ffe9e9;
+                margin-bottom: 20ppx;
+                margin-bottom: 20px;
+                background: #ffffff;
+                padding: 15px;
+                border-radius: 8px;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                .rounded-image {
+                    border-radius: 15px; 
+                    width: 100px; 
+                    height: auto; 
+                    header {
+                        text-align: center;
+                    }
+                }
+             }
+             .single-line {
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                width: 300px; /* Установите нужную ширину */
+            }
+            
 
 
